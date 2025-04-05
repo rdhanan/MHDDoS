@@ -10,7 +10,7 @@ BOT_TOKEN = "7482169527:AAFx-fBBNeVp89_AL1K75x7r_RgzmYNa_Pg"
 ADMIN_ID = 5736271266
 START_PY_PATH = "/workspaces/MHDDoS/start.py"
 
-bot = telebot.TeleBot(BOT_TOKEN)
+telebot = telebot.TeleBot(BOT_TOKEN)
 db_lock = Lock()
 cooldowns = {}
 active_attacks = {}
