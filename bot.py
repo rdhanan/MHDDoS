@@ -6,8 +6,8 @@ from threading import Lock
 import time
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-BOT_TOKEN = "TOKEN AQUI"
-ADMIN_ID = 7178876305
+BOT_TOKEN = "7482169527:AAFx-fBBNeVp89_AL1K75x7r_RgzmYNa_Pg"
+ADMIN_ID = 5736271266
 START_PY_PATH = "/workspaces/MHDDoS/start.py"
 
 bot = telebot.TeleBot(BOT_TOKEN)
@@ -178,7 +178,7 @@ def handle_ping(message):
             f"⚙️ *Tipo:* {attack_type}\n"
             f"🧟‍♀️ *Threads:* {threads}\n"
             f"⏳ *Tiempo (ms):* {duration}\n\n"
-            f"💠 KrizzZModz 🇵🇪 USERS VIP 💠"
+            f"💠 HannModZ 🇵🇪 USERS VIP 💠"
         ),
         reply_markup=markup,
         parse_mode="Markdown",
